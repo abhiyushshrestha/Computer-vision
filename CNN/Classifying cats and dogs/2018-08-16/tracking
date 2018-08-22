@@ -1,0 +1,16 @@
+Iteration 1 
+
+Image size - 128*128
+Convoultion layer - 2
+dropout - X
+accuracy - 0.94
+val_acc - 0.8125 (test set is used as validation set)
+
+Iteration 2 
+
+Image size - 128*128
+Convoultion layer - 2
+dropout - 0.2
+accuracy - 0.9736
+val_acc - 0.8029 (test set is used as validation set)
+

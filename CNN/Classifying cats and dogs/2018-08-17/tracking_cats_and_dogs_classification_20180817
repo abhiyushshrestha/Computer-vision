@@ -1,0 +1,30 @@
+Iteration 1 
+
+Image size - 128*128
+Convoultion layer - 3
+dropout - 0.4 for 1st 2 layers and 0.2 for last layers
+kernel_regularizer = l2(0.01)
+epoch - 2
+
+Model trained = kaggle
+start time = 10:50
+end time  = 11:45
+loss: 0.4512 - acc: 0.8038 - val_loss: 0.5544 - val_acc: 0.7110 (a part of training set is used as validation set)
+test accuracy - 0.7195
+
+Iteration 2 
+
+Image size - 128*128
+Convoultion layer - 2
+dropout - 0.4 for each convolution layer
+
+kernel_regularizer = l2(0.08)
+epoch - 2
+
+Model trained = Google colab
+start time = 13:15
+end time  = 
+2047s 256ms/step - loss: 0.5951 - acc: 0.7209 - val_loss: 0.5837 - val_acc: 0.7286
+test accuracy = 0.7286
+
+

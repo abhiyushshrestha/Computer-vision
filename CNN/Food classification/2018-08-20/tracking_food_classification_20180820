@@ -1,0 +1,18 @@
+Iteration 1 
+
+Image size - 128*128
+category - 10
+Convoultion layer - 2
+epoch - 2
+classes  = 10
+batch_size = 32
+
+Model trained = Own
+start time = 15:30
+end time  = 17:30
+loss: 0.4512 - acc: 0.8038 - val_loss: 0.5544 - val_acc: 0.80 (a part of training set is used as validation set)
+test accuracy - X
+
+Iteration 2 
+
+

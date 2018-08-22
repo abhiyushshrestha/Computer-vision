@@ -1,0 +1,50 @@
+Iteration 1 
+
+Image size - 64*64
+category - 2
+Convoultion layer - 2
+epoch - 1
+classes  = 2
+
+Model trained = Own
+start time = X
+end time  = X
+loss: 0.4512 - acc: 0.8038 - val_loss: 0.5544 - val_acc: 0.80 (a part of training set is used as validation set)
+test accuracy - X
+
+Iteration 2 
+
+Image size - 64*64
+Convoultion layer - 2
+hidden_layers = 2
+kernel_regularizer - l2(0.001) for 1st hidden layer
+		     l2(0.002) for 2nd hidden layer
+dropout - 0.25 for each hidden layers
+
+epoch - 1
+classes = 2
+
+Model trained = Own
+start time = X
+end time  = X
+1600/1600 [==============================] - 375s 234ms/step - loss: 0.4865 - acc: 0.8164 - val_loss: 0.5448 - val_acc: 0.8350
+test accuracy = 0.7286
+
+Iteration 3 
+
+Image size - 64*64
+Convoultion layer - 2
+hidden_layers = 2
+kernel_regularizer - l2(0.001) for 1st hidden layer
+		     l2(0.002) for 2nd hidden layer
+dropout - 0.25 for each hidden layers
+
+epoch - 1
+classes = 10
+
+Model trained = Own
+start time = 17:18
+end time  = 17:48
+8000/8000 [==============================] - 1829s 229ms/step - loss: 1.9534 - acc: 0.3528 - val_loss: 1.9457 - val_acc: 0.3900
+test accuracy = 0.7286
+
